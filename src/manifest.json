@@ -1,0 +1,10 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "sample chrome extension",
+    "content_scripts": [{
+        "matches": ["https://github.com/*/*/issues/*"],
+        "js": ["content.js"]
+    }]
+}
